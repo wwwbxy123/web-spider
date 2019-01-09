@@ -12,7 +12,7 @@ public class Main
         String htmlRemoveTag = FilterHtmlUtil.Html2Text(result);
 
         System.out.println("***************************************************************************************************");
-        System.out.println("content of tis website: " + url + " is: ");
+        System.out.println("content of this website: " + url + " is: ");
         System.out.println("***************************************************************************************************");
         System.out.println(htmlRemoveTag.trim());
         System.out.println("===================================================================================================");
